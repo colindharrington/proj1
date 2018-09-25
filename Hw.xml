@@ -1,9 +1,9 @@
 Colin Harrington
 Leaves HW
-<clothing store>
+<clothing_store>
 
 	<register>
-		<cash register>
+		<cash_register>
 		<employee>
 		<bags>
 	</register>
@@ -21,28 +21,28 @@ Leaves HW
 			<pants>
 			<shirts>
 			<shoes>
-				<sizing attendant>
+				<sizing_attendant>
 			</shoes>
 		</womens>
 
 	</clothes>
 
 
-	<dressing room>
+	<dressing_room>
 		<attendant>
-		<individual rooms>
+		<individual_rooms>
 			<hangers>
 			<stool>
-		</individual rooms>
-	</dressing room>
+		</individual_rooms>
+	</dressing_room>
 
-	<break room>
-		<manager office>
+	<break_room>
+		<manager_office>
 			<manager>
-		</manager office>
+		</manager_office>
 		<lockers>
 		<table>
-		<clock in machine>
-	</break room>
+		<clock_in_machine>
+	</break_room>
 
-</clothing store>
+</clothing_store>
