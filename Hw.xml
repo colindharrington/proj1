@@ -1,0 +1,48 @@
+Colin Harrington
+Leaves HW
+<clothing store>
+
+	<register>
+		<cash register>
+		<employee>
+		<bags>
+	</register>
+	
+
+	<clothes>
+		<mens>
+			<jackets>
+			<pants>
+			<shirts>
+		</mens>
+
+		<womens>
+			<dresses>
+			<pants>
+			<shirts>
+			<shoes>
+				<sizing attendant>
+			</shoes>
+		</womens>
+
+	</clothes>
+
+
+	<dressing room>
+		<attendant>
+		<individual rooms>
+			<hangers>
+			<stool>
+		</individual rooms>
+	</dressing room>
+
+	<break room>
+		<manager office>
+			<manager>
+		</manager office>
+		<lockers>
+		<table>
+		<clock in machine>
+	</break room>
+
+</clothing store>
