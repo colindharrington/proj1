@@ -11,3 +11,10 @@
 - \ then type a space = space in folder name 
 
 # github tips
+
+- git status
+- git add "the file you want to add"
+
+upload to github
+
+- git commit -am "some message"
