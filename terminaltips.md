@@ -18,3 +18,4 @@
 upload to github
 
 - git commit -am "some message"
+- git push origin master 		upload modified file 
