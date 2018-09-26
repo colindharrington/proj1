@@ -9,6 +9,7 @@
 - type "cd" and put a space then drag the folder into terminal 
 - cd ..			goes up a folder to the enclosing one
 - \ then type a space = space in folder name 
+- br 			return
 
 # github tips
 
