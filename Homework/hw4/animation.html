@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+<style>
+	
+	html,body{
+	width: 100%;
+	margin: 0;
+	height: 100%;
+}
+
+@keyframes down{
+	50%{transform: translate(0,15vmin);}
+	100%{transform: initial;}	
+}
+
+
+@keyframes up{
+	50%{transform: translate(0,-15vmin);}
+	100%{transform: initial;}	
+}
+
+#wrapper {
+    float: center;
+    width: 40vmin;
+    height: 40vmin
+    }
+
+
+#TL{
+	animation: down 4s infinite;
+	/*background-color: #199fd6;*/
+	background-color: red;
+	width: 20vmin;
+	height: 20vmin;
+	padding: 1vmin;
+	float:left;
+}
+
+#TR{
+	animation: down 4s infinite;
+	/*background-color: #006699;*/
+	background-color: purple;
+	width: 20vmin;
+	height: 20vmin;
+	padding: 1vmin;
+	float:left;
+}
+
+#BL{
+	animation: up 4s infinite;
+	/*background-color: #3399cc;*/
+	background-color: green;
+	width: 20vmin;
+	height: 20vmin;
+	padding: 1vmin;
+	float:left;
+}
+
+#BR{
+	animation: up 4s infinite;
+	/*background-color: #33cccc;*/
+	background-color: blue;
+	width: 20vmin;
+	height: 20vmin;
+	padding: 1vmin;
+	float:left;
+}
+#top{
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin-top: -10vmin;
+	margin-left:-20vmin;
+}
+#bottom{
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin-top: -10vmin;
+	margin-left:-20vmin;
+
+}
+
+</style>
+
+
+
+</head>
+<body>
+<!-- 		<div id="TL"></div>
+		<div id="TR"></div>
+		<div id="BL"></div>
+		<div id="BR"></div>
+ -->
+	<div id="top">
+		<div id="TL"></div>
+		<div id="TR"></div>
+	</div>
+	<div id="bottom">
+		<div id="BL"></div>
+		<div id="BR"></div>
+	</div>
+
+
+
+</body>
+</html>
